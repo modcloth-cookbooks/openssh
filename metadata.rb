@@ -6,6 +6,6 @@ version           "1.1.0"
 
 recipe "openssh", "Installs openssh"
 
-%w{ redhat centos fedora ubuntu debian arch scientific }.each do |os|
+%w{ redhat centos fedora ubuntu debian arch scientific smartos }.each do |os|
   supports os
 end
