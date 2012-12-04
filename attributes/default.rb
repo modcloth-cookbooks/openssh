@@ -71,7 +71,7 @@ default['openssh']['client']['host'] = "*"
 # sshd config group
 # default['openssh']['server']['port'] = "22"
 # default['openssh']['server']['address_family'] = "any"
-default['openssh']['server']['listen_address'] = [ "0.0.0.0 ::" ]
+default['openssh']['server']['listen_address'] = [ "::" ]
 # default['openssh']['server']['protocol'] = "2"
 # default['openssh']['server']['host_key_v1'] = "/etc/ssh/ssh_host_key"
 # default['openssh']['server']['host_key_rsa'] = "/etc/ssh/ssh_host_rsa_key"
